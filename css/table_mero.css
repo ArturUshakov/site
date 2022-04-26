@@ -1,72 +1,84 @@
 .wrapper .hide {
-    margin: 0 auto;
-    justify-content: center;
-    background: #ff9;
-    display: none;
+	margin: 0 auto;
+	justify-content: center;
+	background: #ff9;
+	display: none;
 }
-input{
-    font-size:18px;
-    padding:10px 10px 10px 5px;
-    display:block;
-    width:300px;
-    border:none;
-    border-bottom:1px solid #757575;
+
+input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid #757575;
 }
+
 input:focus {
-    outline:none;
+	outline: none;
 }
 
 a {
-    text-decoration: none;
-    color: #1a1a1a;
+	text-decoration: none;
+	color: #1a1a1a;
 }
+
 .table__price {
-    border-collapse: collapse;
-    border-left: 3px solid #263145;
-    border-right: 3px solid #263145;
-    border-bottom: 3px solid #263145;
-    font-family: "Lucida Grande", sans-serif;
+	border-collapse: collapse;
+	border-left: 3px solid #263145;
+	border-right: 3px solid #263145;
+	border-bottom: 3px solid #263145;
+	font-family: "Lucida Grande", sans-serif;
 }
+
 .table__price caption {
-    background: #263145;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
-    color: white;
-    font-family: "Roboto Slab",serif;
-    font-style: normal;
-    font-size: 26px;
-    text-align: center;
-    margin: 0;
+	background: #263145;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-style: normal;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
 }
-.table__price td, .table__price th {
-    padding: 10px;
-}
+
+.table__price td,
 .table__price th {
-    text-align: left;
-    font-size: 18px;
+	padding: 10px;
 }
+
+.table__price th {
+	text-align: left;
+	font-size: 18px;
+}
+
 .table__price tr:nth-child(2n) {
-    background: #E5E5E5;
+	background: #E5E5E5;
 }
+
 .table__price td:last-of-type {
-    text-align: center;
+	text-align: center;
 }
+
 .table__price a {
-    display: inline-block;
-    padding: 5px 10px;
-    background: #F79361;
-    box-shadow: 2px 2px 0 0 #a22800;
-    position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	background: #F79361;
+	box-shadow: 2px 2px 0 0 #a22800;
+	position: relative;
 }
+
 .table__price a:hover {
-    box-shadow: none;
-    top: 2px;
-    left: 2px;
+	box-shadow: none;
+	top: 2px;
+	left: 2px;
 }
+
 .form__price {
 	float: left;
-margin-right: 100px;
-margin-left: 20px;
+	margin-right: 100px;
+	margin-left: 20px;
 }
